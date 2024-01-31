@@ -1,0 +1,35 @@
+.products_box:hover .normal_img {
+    display: none;
+}
+
+.products_box:hover .hover_img {
+    display: block;
+}
+
+.products_box .hover_img {
+    display: none;
+}
+
+.products_box figure {
+    background: #fdf5ef;
+}
+
+.products_box {
+    text-align: center;
+}
+
+.products_box h4 {
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.products_box p {
+    font-size: 22px;
+    font-weight: 600;
+    color: #000;
+    margin: 0;
+}

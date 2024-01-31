@@ -1,0 +1,88 @@
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+    transition: .4s all ease-in-out;
+}
+
+.socail ul li a img {
+    width: 16px;
+    height: 17px;
+}
+
+.socail ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.socail ul li:last-child {
+    margin-right: 0;
+}
+
+.socail ul li a {
+    background: #683231;
+    padding: 3px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    min-height: 30px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.outerheader {
+    border-bottom: 1px solid #78554624;
+    padding: 10px 0;
+}
+
+.rightcontact ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightcontact ul li,
+.rightcontact ul li a {
+    font-size: 14px;
+    color: #000;
+}
+.rightcontact ul li a:hover {
+    color: #683231;
+}
+
+.logo a {
+    width: 80px;
+}
+.logo{
+    margin-right: 15px;
+}
+.btm_inr  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.appoint_btn a {
+    background:#9D3920;
+    color: #fff;
+    padding: 10px 15px;
+}
+.bottom_hdr ul li a {
+    color: #000;
+}
+.right_menu {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.right_menu ul li:not(:last-child) {
+    margin-right: 15px;
+}
+.right_menu ul li:last-child a {
+    padding-right: 0;
+}

@@ -1,0 +1,106 @@
+.outer_surgery {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.iner_surgery {
+    background: rgb(116 41 22 / 92%);
+    max-width: 490px;
+    padding: 18px;
+}
+
+.iner_surgery ul li {
+    color: #fff;
+    line-height: 1;
+    padding: 10px 0;
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    cursor: pointer;
+}
+
+.iner_surgery ul li span {
+    color: #fff;
+    line-height: 1;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.iner_surgery ul li {
+    margin-bottom: 10px;
+}
+
+.iner_surgery ul li:last-child {
+    margin-bottom: 0;
+}
+
+.fancy_btn {
+    height: 120px;
+    width: 120px;
+    min-height: 120px;
+    min-width: 120px;
+    background: #860807;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin: 0 auto;
+    position: relative;
+}
+
+.fancy_btn::before {
+    position: absolute;
+    content: "";
+    height: 120px;
+    width: 120px;
+    min-height: 120px;
+    min-width: 120px;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: 1s carcle infinite linear;
+}
+@keyframes car2 {
+    0% {
+        border: 1px solid red;
+        opacity: 1;
+        height: 120px;
+        width: 120px;
+        min-height: 120px;
+        min-width: 120px;
+    }
+
+    25% {
+        border: 1px solid red;
+        height: 150px;
+        width: 150px;
+        min-height: 150px;
+        min-width: 150px;
+    }
+}
+@keyframes carcle {
+    0% {
+        border: 1px solid red;
+        opacity: 1;
+        height: 120px;
+        width: 120px;
+        min-height: 120px;
+        min-width: 120px;
+    }
+
+    25% {
+        border: 1px solid red;
+        height: 150px;
+        width: 150px;
+        min-height: 150px;
+        min-width: 150px;
+    }
+}

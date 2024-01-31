@@ -1,0 +1,16 @@
+.booking_inner {
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 40px;
+}
+.booking_inner select,
+.booking_inner input[type="datetime-local"],
+.booking_inner input[type="datetime-local"],
+.booking_inner input[type="text"] {
+    background: #f0f0f0;
+    height: 48px;
+}
+.booking_sec {
+    margin-top: -40px;
+    position: relative;
+}

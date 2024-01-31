@@ -1,0 +1,40 @@
+.service_right {
+    padding-right: 0;
+}
+
+.skinbox figure img {
+    width: 50px;
+    max-height: 50px;
+}
+
+.skinbox figure {
+    margin-bottom: 0;
+    border-left: 1px solid #eee;
+    width: 30%;
+    padding: 20px;
+}
+
+.skinbox {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid #eee;
+}
+
+.skinbox h5 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    color: #663130;
+    margin-bottom: 0;
+    width: 70%;
+    padding: 20px;
+}
+
+.services_title {
+    text-align: right;
+}
+
+.services_sec {
+    background: #fff7f1;
+}

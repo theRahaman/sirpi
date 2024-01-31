@@ -1,0 +1,22 @@
+.common_title {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 50px;
+}
+.common_title span {
+    font-size: 16px;
+    color: #9d3920;
+    line-height: 1;
+    margin-bottom: 8px;
+    display: block;
+}
+.common_title h2 {
+    font-size: 35px;
+    line-height: 1;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 15px;
+ }
+ .common_title p {
+    line-height:1.6;
+ }
